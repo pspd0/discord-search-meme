@@ -1,0 +1,19 @@
+{
+  "name": "name",
+  "version": "1.0.0",
+  "description": "Description",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "npx tsc && node ./dist/index.js"
+  },
+  "author": "Author",
+  "license": "WTFPL",
+  "dependencies": {
+    "@discordjs/rest": "^1.1.0",
+    "axios": "^0.27.2",
+    "discord.js": "^14.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
